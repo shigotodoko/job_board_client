@@ -9,7 +9,7 @@ class Post < Model
   attribute :expired_at, DateTime
   attribute :active, Boolean
 
-  def self.find_all
+  def self.all
     request(resource).get_all
   end
 

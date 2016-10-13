@@ -34,7 +34,9 @@ class Request
   end
 
   def get_resource
-    agent.at(resource).get
+    agent.at(resource).yield_request do |request|
+      request.auth.ssl.verify_mode = :none
+    end.get
   end
 
   def build_resource_with_id!(id)

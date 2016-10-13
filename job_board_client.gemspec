@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Client for JobBoard.}
   spec.description   = %q{Official client for JobBoard.}
-  spec.homepage      = "http://github.com/shigotodoko/job_board_client."
+  spec.homepage      = "https://github.com/shigotodoko/job_board_client"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

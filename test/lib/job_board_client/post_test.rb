@@ -2,7 +2,7 @@ require 'test_helper'
 
 class PostTest < MiniTest::Test
   def test_find_all
-    posts = Post.find_all
+    posts = Post.all
 
     refute_empty posts
   end
